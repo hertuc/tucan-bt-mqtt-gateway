@@ -1,7 +1,7 @@
-# bt-mqtt-gateway
+# tucan-bt-mqtt-gateway
 
-A simple Python script which provides a Bluetooth to MQTT gateway, easily extensible via custom workers.  
-See [Wiki](https://github.com/zewelor/bt-mqtt-gateway/wiki) for more information.
+Un script Python que provee un gateway entre Bluetooth y MQTT gateway, extensible via custom dispositivos.  
+Basado en [Wiki](https://github.com/zewelor/bt-mqtt-gateway/wiki) para más información.
 
 ## Features
 
@@ -15,12 +15,8 @@ See [Wiki](https://github.com/zewelor/bt-mqtt-gateway/wiki) for more information
 
 ### Supported devices
 
-* [EQ3 Bluetooth smart thermostat](http://www.eq-3.com/products/eqiva/bluetooth-smart-radiator-thermostat.html) via [python-eq3bt](https://github.com/rytilahti/python-eq3bt)
-* [Xiaomi Mi Scale](http://www.mi.com/en/scale/)
-* [Linak Desk](https://www.linak.com/business-areas/desks/office-desks/) via [linak_bt_desk](https://github.com/zewelor/linak_bt_desk)
-* [MySensors](https://www.mysensors.org/)
 * [Xiaomi Mi Flora plant sensor](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-huahuacaocao-flower-care-smart-monitor/) via [miflora](https://github.com/open-homeautomation/miflora)
-* Xiaomi Aqara thermometer via [mithermometer](https://github.com/hobbypunk90/mithermometer)
+
 
 ## Getting Started
 
@@ -38,7 +34,7 @@ The following example shows the installation under Debian/Raspbian:
 
 ```shell
 sudo apt-get install git python3 python3-pip bluetooth bluez
-git clone https://github.com/zewelor/bt-mqtt-gateway.git
+git clone https://github.com/hertuc/tucan-bt-mqtt-gateway.git
 cd bt-mqtt-gateway
 sudo pip3 install -r requirements.txt
 ```
