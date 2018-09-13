@@ -1,7 +1,7 @@
 import importlib
 import threading
 
-from pip._internal import main as pip_main
+from pip import main as pip_main
 from apscheduler.schedulers.background import BackgroundScheduler
 from interruptingcow import timeout
 from functools import partial
